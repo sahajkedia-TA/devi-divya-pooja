@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devi Divya Pooja</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'FedraSansStd-book', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: #faf8f5;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #3c3c3c;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .hero-image {
+            width: 100%;
+            max-width: 1200px;
+            height: 30vh;
+            object-fit: contain;
+            display: block;
+            margin: 20px auto 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+        
+        .events {
+            max-width: 1200px;
+            padding: 16px;
+            width: 100%;
+            margin: 0 auto 40px;
+        }
+        
+        .event {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+            border-left: 4px solid #cf4520;
+            transition: all 0.3s ease;
+        }
+        
+        .event:hover {
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+            transform: translateY(-2px);
+        }
+        
+        .event h3 {
+            color: #cf4520;
+            margin-bottom: 12px;
+            font-size: 1.2rem;
+            font-weight: 400;
+            line-height: 1.4;
+        }
+        
+        .event p {
+            color: #3c3c3c;
+            margin-bottom: 6px;
+            line-height: 1.6;
+            font-size: 0.95rem;
+        }
+        
+        .event strong {
+            color: #cf4520;
+            font-weight: 500;
+        }
+        
+        .event a {
+            color: #cf4520;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s ease;
+            word-break: break-all;
+        }
+        
+        .event a:hover {
+            color: #b03a1a;
+            text-decoration: underline;
+        }
+        
+        @media (min-width: 768px) {
+            .hero-image {
+                height: 35vh;
+                margin: 30px auto 20px;
+            }
+            
+            .events {
+                padding: 20px;
+                margin: 0 auto 50px;
+            }
+            
+            .event {
+                padding: 28px;
+                margin-bottom: 24px;
+            }
+            
+            .event h3 {
+                font-size: 1.4rem;
+                margin-bottom: 14px;
+            }
+            
+            .event p {
+                font-size: 1rem;
+                margin-bottom: 8px;
+                line-height: 1.7;
+            }
+        }
+        
+        @media (min-width: 1024px) {
+            .hero-image {
+                height: 40vh;
+                margin: 40px auto 20px;
+            }
+            
+            .events {
+                padding: 20px;
+                margin: 0 auto 60px;
+            }
+            
+            .event {
+                padding: 32px;
+                margin-bottom: 24px;
+            }
+            
+            .event h3 {
+                font-size: 1.5rem;
+                margin-bottom: 16px;
+            }
+            
+            .event p {
+                font-size: 1rem;
+                margin-bottom: 8px;
+                line-height: 1.8;
+            }
+            
+            .event a {
+                word-break: normal;
+            }
+        }
+    </style>
+</head>
+<body>
+    <img src="devi.png" alt="Devi Divya Pooja" class="hero-image">
+    
+    <div class="events">
+        <div class="event">
+            <h3>Devi Divya Pooja - Brigade Woods Apartment</h3>
+            <p><strong>Date:</strong> 13 Oct 2026</p>
+            <p><strong>Time:</strong> 6:30pm - 7:30pm</p>
+            <p><strong>Location:</strong> Whitefield</p>
+            <p><a href="https://isha.co/Devi-WF-1311026" target="_blank">Short link: isha.co/Devi-WF-1311026</a></p>
+        </div>
+        
+        <div class="event">
+            <h3>Devi Divya Pooja - Isha Place, Marathahalli</h3>
+            <p><strong>Date:</strong> 17-18 Oct 2026</p>
+            <p><strong>Time:</strong> 12:30pm - 1:30pm</p>
+            <p><strong>Location:</strong> Marathahalli</p>
+            <p><a href="https://isha.co/Devi-MH-171026" target="_blank">Short link: isha.co/Devi-MH-171026</a></p>
+        </div>
+        
+        <div class="event">
+            <h3>Devi Divya Pooja - Prestige Shantiniketan Whitefield</h3>
+            <p><strong>Date:</strong> 18 Oct 2026</p>
+            <p><strong>Time:</strong> 5:00pm - 6:00pm</p>
+            <p><strong>Location:</strong> Whitefield</p>
+        </div>
+        
+        <div class="event">
+            <h3>Devi Divya Pooja - Isha Place, Marathahalli</h3>
+            <p><strong>Date:</strong> 19 Oct 2026 (Monday)</p>
+            <p><strong>Time:</strong> 6:00pm - 7:00pm</p>
+            <p><strong>Location:</strong> Marathahalli</p>
+        </div>
+        
+        <div class="event">
+            <h3>Devi Divya Pooja - Isha Place, Marathahalli</h3>
+            <p><strong>Date:</strong> 12-16 Oct 2026</p>
+            <p><strong>Time:</strong> 6:00pm - 7:00pm</p>
+            <p><strong>Location:</strong> Marathahalli</p>
+        </div>
+    </div>
+</body>
+</html>
